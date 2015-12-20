@@ -1,0 +1,90 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+
+}
+
+body {
+	background-color: white;
+	margin: 0;
+}
+
+div {
+	/* for debugging purposes, allows me to see div borders */
+	border: 1px solid Chocolate; 
+}
+
+.content {
+	margin: 0 auto 0 auto;
+}
+
+.navigation-top {
+
+}
+
+.navigation-top .content {
+	width: 60%;
+	height: 4rem;
+	padding: 0 2rem;
+}
+
+.title-name {
+	font-size: 2rem;
+	font-weight: normal;
+	color: black;
+	float: left;
+	margin: 0;
+	padding-top: 1rem;
+}
+
+.links > li {
+	display: block;
+	float: right;
+	margin: 0;
+	padding-left: 4rem;
+	padding-top: 0.75rem;
+}
+
+.about-me {
+	margin-bottom: 4rem;
+}
+
+.about-me .content {
+	width: 60%;
+	overflow: auto;
+}
+
+.greeting {
+	font-weight: bold;
+	text-align: left;
+}
+
+.copy {
+	width: 60%;
+	margin: 0 auto;
+	padding-left: 0.5rem;
+	text-align: left;
+}
+
+.projects .content {
+	width: 60%;
+	text-align: center;
+	overflow: auto;
+}
+
+.content .project-box {
+	width: 10rem;
+	height: 10rem;
+	border: 2px solid red;
+	margin: 1rem;
+	display: inline-block;
+}
+
+@media screen and (max-width: 670px) {
+	.links .li {
+		padding-left: 2rem;
+		font-size: 0.5rem;
+	}
+}
