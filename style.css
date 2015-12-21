@@ -80,11 +80,36 @@ div {
 	border: 2px solid red;
 	margin: 1rem;
 	display: inline-block;
+	/* why does this work? 
+	A: Align the baseline of the element with the baseline of the parent element. This is default*/
+	vertical-align: top;
 }
 
-@media screen and (max-width: 670px) {
-	.links .li {
-		padding-left: 2rem;
-		font-size: 0.5rem;
+.box-text {
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+
+@media screen and (max-width: 970px) {
+	.title-name {
+		font-size: 1.5rem;
+	}
+
+	.links > li {
+		padding-left: 1rem;
+		font-size: 1rem;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.title-name {
+		margin: 0 auto 0 auto;
+		display: inline;
+		text-align: center;
+	}
+
+	.links > li {
+		display: none;
 	}
 }
