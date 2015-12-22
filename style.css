@@ -35,15 +35,14 @@ div {
 	font-weight: normal;
 	color: black;
 	float: left;
-	margin: 0;
-	padding-top: 1rem;
+	margin: 1rem 0 0 0;
 }
 
 .links > li {
-	display: block;
+	display: inline;
 	float: right;
 	margin: 0;
-	padding-left: 4rem;
+	margin-left: 4rem;
 	padding-top: 0.75rem;
 }
 
@@ -59,12 +58,13 @@ div {
 .greeting {
 	font-weight: bold;
 	text-align: left;
+	margin-left: 2rem;
 }
 
 .copy {
-	width: 60%;
+	width: 100%;
 	margin: 0 auto;
-	padding-left: 0.5rem;
+	padding: 0 1rem 0 1rem;
 	text-align: left;
 }
 
@@ -97,16 +97,19 @@ div {
 	}
 
 	.links > li {
-		padding-left: 1rem;
+		margin-left: 1rem;
 		font-size: 1rem;
 	}
 }
 
 @media screen and (max-width: 650px) {
-	.title-name {
-		margin: 0 auto 0 auto;
-		display: inline;
+	.navigation-top .content {
 		text-align: center;
+	}
+
+	.content .title-name {
+		display: block;
+		float: none;
 	}
 
 	.links > li {
