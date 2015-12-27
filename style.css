@@ -124,7 +124,7 @@ div {
 }
 
 .interpunct {
-	color: black;
+	color: white;
 }
 
 .projects {
@@ -162,6 +162,17 @@ div {
 	box-sizing: border-box;
 }
 
+
+.contact {
+	background: white;
+}
+
+.contact .content {
+	width: 60%;
+	margin: 0 auto;
+	height: 4rem;
+}
+
 @media screen and (max-width: 1107px) {
 	.links > li {
 		margin-left: 1rem;
@@ -186,12 +197,13 @@ div {
 @media screen and (max-width: 792px) {
 	.navigation-top .content {
 		text-align: center;
+		padding-top: 1.25rem;
 	}
 
 	.content .title-name {
 		display: block;
 		float: none;
-		margin-top: 2rem;
+		margin: 0;
 	}
 
 	.links > li {
@@ -206,16 +218,26 @@ div {
 	width: 90%;
 	}
 
-}
-
-.contact {
-	background: white;
-}
-
-.contact .content {
-	width: 60%;
+.projects .content {
+	width: 95%;
 	margin: 0 auto;
-	height: 4rem;
+	padding: 0;
+	display: inline;
 }
+
+.projects .tile-image {
+	margin: 0 auto;
+	width: 20rem;
+	height: 20rem;
+}
+
+.project-tiles {
+	width: 15rem;
+	height: 15rem;
+	margin: 0 auto;
+}
+
+}
+
 
 
