@@ -3,20 +3,18 @@ html {
 }
 *, *:before, *:after {
   box-sizing: inherit;
-
+  	margin: 0;
 }
 
 body {
-	background-color: white;
-	margin: 0;
-	padding: 0;
+	background-image: url("images/paper_fibers.png");
+	background-repeat: repeat;
 	font-family: 'Josefin Slab', serif;
 }
 
 div {
 	/* for debugging purposes, allows me to see div borders 
 	border: 1px solid Chocolate; */
-	background-color: white;
 }
 
 .content {
@@ -24,6 +22,7 @@ div {
 }
 
 .navigation-top {
+	background: #50514F;
 
 }
 
@@ -31,21 +30,25 @@ div {
 	width: 60%;
 	height: 4rem;
 	padding: 0 2rem;
-	border-bottom: black 2px solid;
+	background: #50514F;
 }
 
 .title-name,
 .links,
-.box-text {
+.tile-text {
 	font-family: 'Montserrat', sans-serif;
 }
 
 .title-name {
 	font-size: 2rem;
 	font-weight: normal;
-	color: black;
 	float: left;
 	margin: 1rem 0 0 0;
+}
+
+.title-name,
+.links {
+	color: white;
 }
 
 .links > li {
@@ -57,7 +60,7 @@ div {
 }
 
 .about-me {
-	margin-top: 2rem;
+	margin-top: 4rem;
 	margin-bottom: 4rem;
 }
 
@@ -70,6 +73,7 @@ div {
 	font-size: 2.5em;
 	font-weight: bold;
 	text-align: center;
+	margin-bottom: 3rem;
 }
 
 .about-copy {
@@ -83,17 +87,20 @@ div {
 }
 
 .legend {
-	margin: 2em auto 3em  auto;
+	margin: 2em auto 0 auto;
 	padding-left: none;
 	text-align: center;
-	background-color: black;
+	background: #50514F;
 }
 
 .legend-items {
+	width: 60%;
+	margin: 0 auto;
 	padding: 0.5rem 0;
 	font-size: 1.75rem;
 	font-weight: 600;
 	letter-spacing: 2px;
+	border-bottom: 4px #50514F solid;
 }
 
 .legend-items > li {
@@ -117,37 +124,42 @@ div {
 }
 
 .interpunct {
-	color: white;
+	color: black;
+}
+
+.projects {
+	padding: 1.5em;
+	overflow: auto;
+	background-color: white;
 }
 
 .projects .content {
 	width: 60%;
 	text-align: center;
-	overflow: auto;
 }
 
-.content .project-box {
-	width: 10rem;
-	height: 10rem;
-	border: 6px solid black;
+
+.project-tile {
+	width: 15rem;
+	height: 15rem;
 	margin: 1rem;
 	display: inline-block;
 	/* why does this work? 
 	A: Align the baseline of the element with the baseline of the parent element. This is default*/
-	vertical-align: top;
 }
 
-.box-text {
-	color: black;
-	margin: 0;
-	display: inline-block;
-	margin-top: 25%;
-}
-
-.box-image {
+.tile-image {
 	width: 100%;
 	position: relative;
+	border-top: 4px #F25F5C solid;
+}
 
+.tile-caption {
+	color: #50514F;
+	margin-top: 0;
+	text-align: center;
+	vertical-align: bottom;
+	box-sizing: border-box;
 }
 
 @media screen and (max-width: 1107px) {
@@ -192,7 +204,18 @@ div {
 
 .about-me .content {
 	width: 90%;
-}
+	}
 
 }
+
+.contact {
+	background: white;
+}
+
+.contact .content {
+	width: 60%;
+	margin: 0 auto;
+	height: 4rem;
+}
+
 
