@@ -1,14 +1,13 @@
 html {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 *, *:before, *:after {
-  box-sizing: inherit;
-  	margin: 0;
+	box-sizing: inherit;
+	margin: 0;
 }
 
 body {
-	background-image: url("images/paper_fibers.png");
-	background-repeat: repeat;
+	background: #FCFBE3;
 	font-family: 'Josefin Slab', serif;
 }
 
@@ -22,7 +21,8 @@ div {
 }
 
 .navigation-top {
-	background: #50514F;
+	background: #2E86AB;
+	box-shadow: 0px 0.25px 4px;
 
 }
 
@@ -30,7 +30,7 @@ div {
 	width: 60%;
 	height: 4rem;
 	padding: 0 2rem;
-	background: #50514F;
+	background: #2E86AB;
 }
 
 .title-name,
@@ -62,6 +62,7 @@ div {
 .about-me {
 	margin-top: 4rem;
 	margin-bottom: 4rem;
+	background: #FCFBE3;
 }
 
 .about-me .content {
@@ -74,6 +75,7 @@ div {
 	font-weight: bold;
 	text-align: center;
 	margin-bottom: 3rem;
+	color: #2E86AB;;
 }
 
 .about-copy {
@@ -84,13 +86,22 @@ div {
 	padding: 0 1rem 0 1rem;
 	text-align: center;
 	line-height: 120%;
+	color: #2E86AB;
 }
 
-.legend {
+.project-header {
 	margin: 2em auto 0 auto;
 	padding-left: none;
 	text-align: center;
-	background: #50514F;
+	background: #BEE3DB;
+	box-shadow: 0px 0.25px 4px;
+}
+
+.project-header-text {
+	font-size: 2.5em;
+	color: white;
+	padding: 0.5em 0;
+
 }
 
 .legend-items {
@@ -100,7 +111,6 @@ div {
 	font-size: 1.75rem;
 	font-weight: 600;
 	letter-spacing: 2px;
-	border-bottom: 4px #50514F solid;
 }
 
 .legend-items > li {
@@ -111,7 +121,7 @@ div {
 	color: #F25F5C;
 }
 
-.graphic-design {
+.design {
 	color: #FFE066;
 }
 
@@ -130,11 +140,11 @@ div {
 .projects {
 	padding: 1.5em;
 	overflow: auto;
-	background-color: white;
+	background-color: #2E86AB;
 }
 
 .projects .content {
-	width: 60%;
+	width: 80%;
 	text-align: center;
 }
 
@@ -142,8 +152,11 @@ div {
 .project-tile {
 	width: 15rem;
 	height: 15rem;
-	margin: 1rem;
+	margin: 2em;
 	display: inline-block;
+	border: 2px solid white;
+	border-radius: 100%;
+	padding: 6px;
 	/* why does this work? 
 	A: Align the baseline of the element with the baseline of the parent element. This is default*/
 }
@@ -151,20 +164,30 @@ div {
 .tile-image {
 	width: 100%;
 	position: relative;
-	border-top: 4px #F25F5C solid;
 }
 
 .tile-caption {
-	color: #50514F;
-	margin-top: 0;
+	color: white;
+	margin-top: 1rem;
 	text-align: center;
 	vertical-align: bottom;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 100;
+	font-size: 0.8em;
 	box-sizing: border-box;
+}
+
+.project-category {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.8em;
+	font-style: italic;
+	margin-top: 0.25rem;
 }
 
 
 .contact {
-	background: white;
+	background: #BEE3DB;
 }
 
 .contact .content {
@@ -173,9 +196,24 @@ div {
 	height: 4rem;
 }
 
+@media screen and (max-width: 1334px) {
+	.legend-items > li {
+		font-size: 1.5rem;
+	}
+}
+
+@media screen and (max-width: 1187px) {
+	.legend-items > li {
+		font-size: 1.25rem;
+	}
+}
+
 @media screen and (max-width: 1107px) {
 	.links > li {
 		margin-left: 1rem;
+	}
+	.legend-items > li {
+		font-size: 1rem;
 	}
 }
 
@@ -194,6 +232,7 @@ div {
 	}
 }
 
+
 @media screen and (max-width: 792px) {
 	.navigation-top .content {
 		text-align: center;
@@ -210,34 +249,48 @@ div {
 		display: none;
 	}
 
-.about-copy {
+	.about-copy {
 		font-size: 1.5em;
 	}
 
-.about-me .content {
-	width: 90%;
+	.about-me .content {
+		width: 90%;
 	}
 
-.projects .content {
-	width: 95%;
-	margin: 0 auto;
-	padding: 0;
-	display: inline;
+	.legend .content .legend-items > li {
+		display: block;
+	}
+
+	.legend-items > li {
+		font-size: 1.5rem;
+	}
+
+	.interpunct {
+		display: none;
+	}
+
+	.projects .content {
+		width: 95%;
+		margin: 0 auto;
+		padding: 0;
+		display: inline;
+	}
+
+	.projects .project-tile {
+		margin: 0 auto;
+		display: block;
+		margin-bottom: 3rem;
+	}
+
+	.project-tiles {
+		width: 15rem;
+		height: 15rem;
+		margin: 0 auto;
+	}
+
 }
 
-.projects .tile-image {
-	margin: 0 auto;
-	width: 20rem;
-	height: 20rem;
-}
 
-.project-tiles {
-	width: 15rem;
-	height: 15rem;
-	margin: 0 auto;
-}
-
-}
 
 
 
