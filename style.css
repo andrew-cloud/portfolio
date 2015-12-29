@@ -246,7 +246,7 @@ a:hover {
 		width: 100%;
 	}
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 500px) {
 	.about-copy,
 	.about-copy-smallscreen {
 		display: inline-block;
@@ -299,7 +299,7 @@ a:hover {
 	.tile-image {
 		border: 2px white solid;
 		border-radius: 100%;
-		padding: 4px;
+		padding: 6px;
 	}
 
 	.tile-caption,
