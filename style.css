@@ -29,6 +29,8 @@ a:hover {
 	margin: 0 auto 0 auto;
 }
 
+/* nav-bar */
+
 .navigation-top {
 	background: #2E86AB;
 	box-shadow: 0px 0.25px 4px;
@@ -68,6 +70,8 @@ a:hover {
 	margin-top: 1.6rem;
 }
 
+/* about me */
+
 .about-me {
 	margin-top: 4rem;
 	background: #FCFBE3;
@@ -100,9 +104,10 @@ a:hover {
 }
 
 .about-copy-smallscreen {
-	font-size: 1.75rem;
 	display: none;
 }
+
+/* projects */
 
 .project-header {
 	margin: 2em auto 0 auto;
@@ -129,6 +134,8 @@ a:hover {
 	width: 80%;
 	text-align: center;
 }
+
+	/* project tiles */
 
 .project-tile:hover {
 	border: 2px white dashed;
@@ -171,6 +178,8 @@ a:hover {
 }
 
 
+/* footer */
+
 .contact {
 	background: #FCFBE3;
 }
@@ -202,10 +211,14 @@ a:hover {
 	color: #BEE3DB;
 }
 
+/* small screen adjustments */
+
 .small-screen {
 	color: #2E86AB;
 	text-decoration: underline;
 }
+
+/* media queries */
 
 @media screen and (max-width: 900px) {
 	.title-name {
@@ -222,7 +235,7 @@ a:hover {
 	}
 
 	.about-copy {
-		font-size: 1.5rem;
+		font-size: 1.75rem;
 	}
 
 	.project-header-text {
@@ -234,17 +247,18 @@ a:hover {
 	}
 
 @media screen and (max-width: 700px) {
+	.about-copy,
 	.about-copy-smallscreen {
 		display: inline-block;
-		font-size: 1.5rem;
+		font-size: 1.25rem;
 	}
 
 	.title-name {
-		font-size: 1.5rem;
+		font-size: 1.1em;
 		float: none;
 		text-align: center;
 		margin: 0 auto;
-		padding-top: 1.25rem;
+		padding-top: 1.5rem;
 	}
 
 	.links {
@@ -255,17 +269,41 @@ a:hover {
 		font-size: 2rem;
 	}
 
+	.about-me .content {
+		width: 100%;
+	}
+
+	.project .content {
+		padding: 0.3em;
+	}
+
 	.project-header-text {
 		font-size: 2em;
 	}
 
 	.project-tile {
-		height: 20em;
-		width: 20em;
+		position: relative;
+		width: 75%;
+		border: none;
+	}
+
+	.project-tile:before {
+		display: block;
+		padding-top: 100%;
+	}
+
+	.project-tile:hover {
+		border: none;
+	}
+
+	.tile-image {
+		border: 2px white solid;
+		border-radius: 100%;
+		padding: 4px;
 	}
 
 	.tile-caption,
-	.project.category {
+	.project-category {
 		font-size: 1em;
 	}
 }
