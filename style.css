@@ -72,6 +72,8 @@ a:hover {
 	margin-top: 1.6rem;
 }
 
+/* main page */
+
 /* about me */
 
 .about-me {
@@ -210,6 +212,35 @@ a:hover {
 	color: #BEE3DB;
 }
 
+/* project pages */
+
+.introduction {
+	background-image: url(images/moha_stage.png);
+	background-position: 0 bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 40rem;
+	overflow: auto;
+}
+
+.introduction h1, h2 {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 100;
+	color: white;
+	margin-top: 2em;
+	padding: 6px;
+	float: left;
+	text-align: center;
+	background-color: black;
+}
+
+.introduction h1 {
+	font-size: 4em;
+}
+
+.project-info {
+	
+}
 /* small screen adjustments */
 
 .smallscreen-link {
