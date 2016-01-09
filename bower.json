@@ -1,0 +1,27 @@
+{
+  "name": "cloud",
+  "homepage": "https://github.com/andrew-cloud/portfolio",
+  "authors": [
+    "andrew-cloud <cloud.a@husky.neu.edu>"
+  ],
+  "description": "portfolio",
+  "main": "project_template.html",
+  "moduleType": [],
+  "keywords": [
+    "don't",
+    "know"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "masonry": "~3.3.2",
+    "imagesloaded": "~4.0.0"
+  }
+}

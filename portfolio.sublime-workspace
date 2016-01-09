@@ -1,0 +1,599 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ba",
+				"background"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"backgroun",
+				"background"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"inline",
+				"inline-table"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"play",
+				"playHadouken"
+			],
+			[
+				"ry",
+				"ryu-throwing"
+			],
+			[
+				"ryu",
+				"ryu-ready"
+			],
+			[
+				"h",
+				"href	Attr"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"padding-",
+				"padding-bottom"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"backg",
+				"background-repeat"
+			],
+			[
+				"boder",
+				"border-box"
+			],
+			[
+				"bottom",
+				"text-bottom"
+			],
+			[
+				"bakc",
+				"background"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"block",
+				"inline-block"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"backgro",
+				"background-color"
+			],
+			[
+				"paddi",
+				"padding-right"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"backgrou",
+				"background-position"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 3514,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "project_template.html",
+			"settings":
+			{
+				"buffer_size": 3194,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js.js",
+			"settings":
+			{
+				"buffer_size": 116,
+				"line_ending": "Unix",
+				"name": "$(function(){"
+			}
+		},
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 5291,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/AndrewCloud/Dropbox/Thinkful_Projects/startup-landing-page-clone/index.html",
+			"settings":
+			{
+				"buffer_size": 2116,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/AndrewCloud/Dropbox/Thinkful_Projects/startup-landing-page-clone/css/style.css",
+			"settings":
+			{
+				"buffer_size": 3542,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/AndrewCloud/Dropbox/Thinkful_Projects/jquery-streetfighter/js/app.js",
+		"/Users/AndrewCloud/Dropbox/Thinkful_Projects/jquery-streetfighter/css/main.css",
+		"/Users/AndrewCloud/Dropbox/Thinkful_Projects/jquery-streetfighter/main.html",
+		"/Users/AndrewCloud/Dropbox/Thinkful_Projects/portfolio/index.html",
+		"/Users/AndrewCloud/Dropbox/Projects/portfolio/style.css",
+		"/Users/AndrewCloud/Dropbox/Thinkful_Projects/Hello_World/jquery-2.1.4.js",
+		"/Users/AndrewCloud/Dropbox/Projects/portfolio/index.html",
+		"/Users/AndrewCloud/Dropbox/Projects/startup-landing-page-clone/css/style.css",
+		"/Users/AndrewCloud/Dropbox/Projects/startup-landing-page-clone/index.html",
+		"/Users/AndrewCloud/Library/Application Support/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/Users/AndrewCloud/Dropbox/Projects/aboutme.html",
+		"/Users/AndrewCloud/Dropbox/Projects/aboutme/style.css",
+		"/Users/AndrewCloud/Dropbox/Projects/startup-landing-page-clone/css/font-awesome.min.css",
+		"/Users/AndrewCloud/Dropbox/Projects/style.css",
+		"/Users/AndrewCloud/Dropbox/cloud/cloudphotos/home.html",
+		"/Users/AndrewCloud/Dropbox/cloud/cloudphotos/css/text.css",
+		"/Users/AndrewCloud/Dropbox/cloud/cloudphotos/css/style.css",
+		"/Users/AndrewCloud/Dropbox/cloud/cloudphotos/css/reset.css",
+		"/Users/AndrewCloud/Dropbox/cloud/cloudphotos/css/960.css",
+		"/Users/AndrewCloud/Dropbox/cloud/cloudphotos/css/galleria.css",
+		"/Users/AndrewCloud/Dropbox/cloud/cloudphotos/style.css",
+		"/Users/AndrewCloud/Desktop/cloudphotos/index.php",
+		"/Users/AndrewCloud/Desktop/cloudphotos/index.html",
+		"/Users/AndrewCloud/Desktop/cloudphotos/style.css",
+		"/Users/AndrewCloud/Downloads/simplegallery/jquery.galleria.pack.js",
+		"/Users/AndrewCloud/Downloads/simplegallery/index.html",
+		"/Users/AndrewCloud/Downloads/simplegallery/index.php",
+		"/Users/AndrewCloud/Desktop/Website/style.css",
+		"/Users/AndrewCloud/Desktop/Website/home.html",
+		"/Users/AndrewCloud/Documents/test.html",
+		"/Users/AndrewCloud/Documents/Processing/Quiz/data/quiz.xml"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"title-inside",
+			"border: 2px white solid;\n	    border-radius: 100%;",
+			"box",
+			"box-image",
+			"box-caption",
+			"project-box",
+			"h3",
+			"font-size",
+			"\"></",
+			"gallery",
+			"background"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3514,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								447,
+								447
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "project_template.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3194,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								621,
+								621
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 116,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								116,
+								116
+							]
+						],
+						"settings":
+						{
+							"auto_name": "$(function(){",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5291,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3990,
+								3990
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4622.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/AndrewCloud/Dropbox/Thinkful_Projects/startup-landing-page-clone/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2116,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								774,
+								774
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 63.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/AndrewCloud/Dropbox/Thinkful_Projects/startup-landing-page-clone/css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3542,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								833,
+								1024
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 742.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "portfolio.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

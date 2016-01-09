@@ -9,11 +9,13 @@ html {
 body {
 	background: #FCFBE3;
 	font-family: 'Josefin Slab', serif;
+	margin: 0;
 }
 
 div {
 	/* for debugging purposes, allows me to see div borders 
 	border: 1px solid Chocolate; */
+	margin: 0;
 }
 
 a {
@@ -23,6 +25,11 @@ a {
 
 a:hover {
 	color: #BEE3DB;
+}
+
+/* want "Andrew Cloud" not to change color when hovered over */
+.title-name a {
+	color: white;
 }
 
 .content {
@@ -221,26 +228,63 @@ a:hover {
 	background-size: cover;
 	height: 40rem;
 	overflow: auto;
+	border-bottom: 4px #BEE3DB solid;
 }
 
-.introduction h1, h2 {
+.hl-title, .hl-category {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 100;
 	color: white;
-	margin-top: 2em;
-	padding: 6px;
-	float: left;
-	text-align: center;
-	background-color: black;
+	background-color: rgba(0,0,0,0.75);
+	display: inline-block;
+	padding: 5px;
 }
 
-.introduction h1 {
+/*there's gotta be a better way */
+.hl-container {
+	width: 90%;
+	margin: 6rem 0 -3rem 1rem;
+	float: left;
+	overflow: auto;
+}
+
+.hl-title {
 	font-size: 4em;
 }
 
-.project-info {
-	
+.hl-category {
+	font-size: 3em;
+	margin-top: 0.5em;
 }
+
+.about-project {
+	background: white;
+	margin: 0;
+}
+
+.copy-container {
+	width: 60%;
+	margin: 0 auto;
+	background: white;
+	padding-bottom: 2rem;
+}
+
+.project-copy {
+	padding-top: 2rem;
+}
+
+.photos .content {
+	margin: 0 auto;
+	text-align: center;
+	background: white;
+}
+
+.photo-container {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
 /* small screen adjustments */
 
 .smallscreen-link {
