@@ -289,7 +289,8 @@ a:hover {
 
 .photo-container {
 	width: 80%;
-	margin: 0 auto;
+	margin: 0 auto 0 auto;
+	padding-top: 4rem;
 	text-align: center;
 }
 
@@ -314,8 +315,8 @@ a:hover {
 }
 
 .profile-pic {
-	width: 250px;
-	height: 250px;
+	width: 275px;
+	height: 275px;
 	margin-left: 2rem;
 	float: left;
 }
@@ -339,6 +340,62 @@ object {
 }
 
 /* media queries */
+
+@media screen and (max-width: 1255px) {
+	.profile-pic {
+		width: 250px;
+		height: 250px;
+	}
+
+	.about-copy-container {
+		width: 50%;
+	}
+
+}
+
+@media screen and (max-width: 1170px) {
+	.profile-pic {
+		width: 225px;
+		height: 225px;
+	}
+
+
+}
+
+@media screen and (max-width: 1085px) {
+	.profile-pic {
+		width: 200px;
+		height: 200px;
+	}
+
+	.about-copy-container {
+		margin: 0 1rem;
+	}
+
+}
+
+@media screen and (max-width: 990px) {
+	.about-me .content {
+		display: block;
+	}
+
+	.profile-pic {
+		width: 250px;
+		height: 250px;
+		margin: 0 auto;
+		float: none;
+		display: block;
+		
+	}
+
+	.about-copy-container {
+		width: 80%;
+		margin: 1.5rem auto 1rem auto;
+		float: none;
+		display: block;
+	}
+
+}
 
 @media screen and (max-width: 900px) {
 	.title-name {
@@ -398,6 +455,10 @@ object {
 
 	.photo-container {
 		width: 100%;
+	}
+
+	.about-me .content {
+		width: 80%;
 	}
 }
 
@@ -471,6 +532,10 @@ object {
 	.hl-category {
 	font-size: 1.5em;
 	margin-top: 0.5em;
+	}
+
+	.about-me .content {
+		width: 100%;
 	}
 
 }
