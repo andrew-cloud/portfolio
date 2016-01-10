@@ -27,7 +27,10 @@ a:hover {
 	color: #BEE3DB;
 }
 
-/* want "Andrew Cloud" not to change color when hovered over */
+.current-page {
+	border-bottom: 3px white solid;
+}
+
 .title-name a {
 	color: white;
 }
@@ -219,10 +222,6 @@ a:hover {
 	color: #BEE3DB;
 }
 
-.current-page {
-	border-bottom: 4px white solid;
-}
-
 /* project pages */
 
 .introduction {
@@ -297,7 +296,7 @@ a:hover {
 /* about me */
 
 .about-me .content {
-	width: 80%;
+	width: 60%;
 	margin: 0 auto;
 	padding-top: 6rem;
 	background: white;
@@ -305,15 +304,31 @@ a:hover {
 }
 
 .about-copy-container {
-	width: 60%;
+	width: 50%;
 	margin: 0 2rem;
 	float: right;
 }
 
+.about-copy {
+	padding-bottom: 1rem;
+}
+
 .profile-pic {
-	width: 20%;
-	margin-left: 0.5rem;
+	width: 250px;
+	height: 250px;
+	margin-left: 2rem;
 	float: left;
+}
+
+/* resume */
+
+.pdf-container {
+	width: 100%;
+	height: 100%;
+}
+
+object {
+	height: 100%;
 }
 
 /* small screen adjustments */
