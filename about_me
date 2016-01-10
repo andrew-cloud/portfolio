@@ -15,16 +15,16 @@
 			<h1 class="title-name"><a href="index.html">Andrew Cloud</a></h1>
 			<ul class="links">
 				<li><a href="http://www.google.com">resume</a></li>
-				<li><a href="about_me.html">about</a></li>
+				<li class="about"><a href="http://www.google.com">about</a></li>
 			</ul>
 		</div>
 	</nav>
-	<section class="home-introduction">
+	<section class="about-me">
 		<div class="content">
 			<h2 class="greeting">-Hi!</h2>
 			<div class="copy">	
-				<p class="introduction-copy">My name is Cloud. I'm a Marketing and Interactive Media combined major at Northeastern University and an aspiring UI/UX designer.</p>
-				<p class="introduction-copy-smallscreen"> Maybe you want to learn more <a class="smallscreen-link" href="http://www.google.com">about me</a>, or maybe you just want my <a class="smallscreen-link" href="http://www.google.com">resume</a>.</p>
+				<p class="about-copy">My name is Cloud. I'm a Marketing and Interactive Media combined major at Northeastern University and an aspiring UI/UX designer.</p>
+				<p class="about-copy-smallscreen"> Maybe you want to learn more <a class="smallscreen-link" href="http://www.google.com">about me</a>, or maybe you just want my <a class="smallscreen-link" href="http://www.google.com">resume</a>.</p>
 			</div>
 		</section>
 		<section class="project-header">
