@@ -243,7 +243,7 @@ a:hover {
 	padding: 5px;
 }
 
-/*there's gotta be a better way */
+/* there's gotta be a better way */
 .hl-container {
 	width: 90%;
 	margin: 6rem 0 -3rem 1rem;
@@ -258,6 +258,26 @@ a:hover {
 .hl-category {
 	font-size: 3em;
 	margin-top: 0.5em;
+}
+
+.introduction-schumer {
+	background-image: url(images/amy_schumer_shirt.jpg);
+	background-position: 0 22px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 40rem;
+	overflow: auto;
+	border-bottom: 4px #BEE3DB solid;
+}
+
+.introduction-homecoming {
+	background-image: url(images/nu_homecoming.png);
+	background-position: 0 22px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 40rem;
+	overflow: auto;
+	border-bottom: 4px #BEE3DB solid;
 }
 
 .about-project {
@@ -288,9 +308,10 @@ a:hover {
 }
 
 .photo-container {
-	width: 80%;
+	width: 60%;
 	margin: 0 auto 0 auto;
 	padding-top: 4rem;
+	padding-bottom: 2rem;
 	text-align: center;
 }
 
@@ -300,6 +321,7 @@ a:hover {
 	width: 60%;
 	margin: 0 auto;
 	padding-top: 6rem;
+	padding-bottom: 1rem;
 	background: white;
 	overflow: auto;
 }
@@ -522,6 +544,11 @@ object {
 	.project-category {
 		font-size: 1em;
 	}
+
+	.contact-text {
+	margin-top: 1rem;
+	font-size: 0.75rem;
+}
 
 	/* project pages */
 
