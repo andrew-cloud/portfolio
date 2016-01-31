@@ -280,6 +280,16 @@ a:hover {
 	border-bottom: 4px #BEE3DB solid;
 }
 
+.introduction-traveld {
+	background-image: url(images/worldmap.jpg);
+	background-position: 0 22px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 40rem;
+	overflow: auto;
+	border-bottom: 4px #BEE3DB solid;
+}
+
 .about-project {
 	background: white;
 	margin: 0;
@@ -291,10 +301,18 @@ a:hover {
 	background: white;
 	padding-top: 0.5rem;
 	padding-bottom: 2rem;
+	margin-bottom: 1rem;
 }
 
 .project-copy {
 	padding-top: 2rem;
+	line-height: 120%;
+}
+
+.image {
+	width: 80%;
+	margin: 2rem auto;
+	display: block;
 }
 
 .photos {
@@ -474,6 +492,12 @@ object {
 	.project-copy {
 	padding-top: 1rem;
 	}
+
+.image {
+	width: 100%;
+	margin: 2rem auto;
+	display: block;
+}
 
 	.photo-container {
 		width: 100%;
