@@ -29,6 +29,7 @@ a:hover {
 
 .blue-link {
 	color: #2E86AB;
+	font-weight: bold;
 }
 
 .current-page {
@@ -117,7 +118,7 @@ a:hover {
 	font-size: 2em;
 	font-weight: bold;
 	text-align: center;
-	line-height: 120%;
+	line-height: 115%;
 	color: #2E86AB;
 }
 
@@ -304,6 +305,16 @@ a:hover {
 	border-bottom: 4px #BEE3DB solid;
 }
 
+.introduction-forfun {
+	background-image: url(images/graphics/big/chposter.png);
+	background-position: 0 40px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 40rem;
+	overflow: auto;
+	border-bottom: 4px #BEE3DB solid;
+}
+
 .about-project {
 	background: white;
 	margin: 0;
@@ -366,6 +377,7 @@ a:hover {
 
 .about-copy {
 	padding-bottom: 1rem;
+	line-height: 115%;
 }
 
 .profile-pic {
